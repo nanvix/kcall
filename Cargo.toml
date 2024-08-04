@@ -1,0 +1,17 @@
+# Copyright(c) The Maintainers of Nanvix.
+# Licensed under the MIT License.
+
+[package]
+name = "kcall"
+version = "0.0.1"
+license-file = "LICENSE.txt"
+edition = "2021"
+authors = ["The Maintainers of Nanvix"]
+description = "Nanvix Kernel Call API"
+homepage = "https://github.com/nanvix"
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+sys = { git = "https://github.com/nanvix/sys", branch = "releases/v0.0.2" }
