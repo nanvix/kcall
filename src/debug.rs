@@ -5,13 +5,11 @@
 // Imports
 //==================================================================================================
 
-use ::sys::{
-    error::{
-        Error,
-        ErrorCode,
-    },
-    number::KcallNumber,
+use ::error::{
+    Error,
+    ErrorCode,
 };
+use ::sys::number::KcallNumber;
 
 //==================================================================================================
 // Public Standalone Functions

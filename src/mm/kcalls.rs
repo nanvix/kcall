@@ -5,11 +5,11 @@
 // Imports
 //==================================================================================================
 
+use ::error::{
+    Error,
+    ErrorCode,
+};
 use ::sys::{
-    error::{
-        Error,
-        ErrorCode,
-    },
     mm::{
         AccessPermission,
         Address,
