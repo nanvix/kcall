@@ -3,7 +3,7 @@
 
 [package]
 name = "kcall"
-version = "1.0.0"
+version = "2.0.0"
 license-file = "LICENSE.txt"
 edition = "2021"
 authors = ["The Maintainers of Nanvix"]
@@ -14,6 +14,6 @@ homepage = "https://github.com/nanvix"
 crate-type = ["lib"]
 
 [dependencies]
-arch = { git = "https://github.com/nanvix/arch", branch = "releases/v0.0.1" }
+arch = { git = "https://github.com/nanvix/arch", branch = "releases/v1.0.0" }
 sys = { git = "https://github.com/nanvix/sys", branch = "releases/v1.1.0" }
 error = { git = "https://github.com/nanvix/error", branch = "releases/v0.0.1" }
