@@ -3,7 +3,7 @@
 
 [package]
 name = "kcall"
-version = "1.0.0"
+version = "2.0.0"
 license-file = "LICENSE.txt"
 edition = "2021"
 authors = ["The Maintainers of Nanvix"]
