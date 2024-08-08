@@ -16,9 +16,10 @@
 // Modules
 //==================================================================================================
 
+/// Architecture-specific symbols.
 #[cfg(target_arch = "x86")]
 #[path = "arch/x86.rs"]
-mod arch;
+pub mod arch;
 
 /// Configuration constants.
 pub use ::sys::config;
