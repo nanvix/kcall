@@ -21,9 +21,6 @@
 #[path = "arch/x86.rs"]
 pub mod arch;
 
-/// Configuration constants.
-pub use ::sys::config;
-
 /// Debug facilities.
 pub mod debug;
 
@@ -38,3 +35,6 @@ pub mod mm;
 
 /// Process management kernel calls.
 pub mod pm;
+
+/// System constants.
+pub use ::sys;
